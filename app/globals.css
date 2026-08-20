@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+body {
+  font-family: var(--font-sans);
+  font-optical-sizing: auto;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 900;
+  font-display: swap;
+	src: url('/font/woff2/IRANSansWeb_Black.woff2') format('woff2');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: bold;
+  font-display: swap;
+	src: url('/font/woff2/IRANSansWeb_Bold.woff2') format('woff2');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 500;
+  font-display: swap;
+	src: url('/font/woff2/IRANSansWeb_Medium.woff2') format('woff2');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 300;
+  font-display: swap;
+	src: url('/font/woff2/IRANSansWeb_Light.woff2') format('woff2');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 200;
+  font-display: swap;
+	src: url('/font/woff2/IRANSansWeb_UltraLight.woff2') format('woff2');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: normal;
+  font-display: swap;
+	src: url('/font/woff2/IRANSansWeb.woff2') format('woff2');
+}
+
+@theme {
+  --font-sans: "IRANSans", system-ui, -apple-system, sans-serif;
+  /* =========================================
+     Base Colors
+  ========================================= */
+  --color-base-primary: #FA541C;
+  --color-base-secondary: #032340;
+  --color-base-neutral: #FFFFFF;
+  --color-base-light: #FEEEE8;
+  --color-base-ice: #EBF5FF;
+
+  /* =========================================
+     Primary Palette (Based on #FA541C)
+  ========================================= */
+  --color-primary: #FA541C;
+  --color-primary-900: #4B1908;
+  --color-primary-850: #7A2A11;
+  --color-primary-700: #CC4516;
+  --color-primary-600: #E64D1A;
+  --color-primary-400: #FB7549;
+  --color-primary-300: #FC9677;
+  --color-primary-150: #FDD1C3;
+  --color-primary-50: #FEEEE8;
+
+  /* =========================================
+     Secondary Palette (Based on #032340)
+  ========================================= */
+  --color-secondary: #032340;
+  --color-secondary-900: #010E1A;
+  --color-secondary-850: #02192D;
+  --color-secondary-700: #04325B;
+  --color-secondary-400: #2673B8;
+  --color-secondary-300: #5295D1;
+  --color-secondary-150: #B0D4F5;
+  --color-secondary-50: #EBF5FF;
+  --color-secondary-0: #FFFFFF;
+
+  /* =========================================
+     State Colors
+  ========================================= */
+  /* Error */
+  --color-error-800: #8A1513;
+  --color-error-500: #E53935;
+  --color-error-200: #FADDCA;
+
+  /* Warning */
+  --color-warning-800: #995700;
+  --color-warning-500: #FFB300;
+  --color-warning-200: #FFF3BF;
+
+  /* Success */
+  --color-success-800: #257028;
+  --color-success-500: #66BB6A;
+  --color-success-200: #D3EDDD;
+
+  /* Info */
+  --color-info-800: #0F5894;
+  --color-info-500: #29B6F6;
+  --color-info-200: #C7F2FC;
+
+  /* =========================================
+     Neutral Color Palette
+  ========================================= */
+  --color-neutral-50: #FFFFFF;
+  --color-neutral-100: #F9F9F9;
+  --color-neutral-200: #EDEDED;
+  --color-neutral-300: #D9D9D9;
+  --color-neutral-400: #CBCBCB;
+  --color-neutral-500: #ADADAD;
+  --color-neutral-600: #868686;
+  --color-neutral-700: #606060;
+  --color-neutral-800: #404040;
+}
