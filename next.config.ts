@@ -15,6 +15,7 @@ export default {
   },
   productionBrowserSourceMaps: isDevelopment,
   reactStrictMode: isDevelopment,
-  reactCompiler: true,
   poweredByHeader: isDevelopment,
+  reactCompiler: true,
+  cacheComponents: true,
 } as NextConfig;
