@@ -1,11 +1,15 @@
+import BannerHeader from "@/components/BannerHeader";
+import Footer from "@/components/TheFooter";
+import Header from "@/components/TheHeader";
 import { PropsWithChildren } from "react";
 
 export default function ShopLayout({ children }: PropsWithChildren) {
   return (
     <>
-      <header>header</header>
+      <BannerHeader />
+      <Header />
       <main>{children}</main>
-      <footer>footer</footer>
+      <Footer />
     </>
   );
 }

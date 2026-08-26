@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { PropsWithChildren } from "react";
 
 export const metadata: Metadata = {
   title: "ورود و ثبت‌ نام",
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
 export default function AuthLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: PropsWithChildren;
 }) {
   return children;
 }

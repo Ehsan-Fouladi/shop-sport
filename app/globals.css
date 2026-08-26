@@ -129,6 +129,7 @@ body {
   --color-neutral-600: #868686;
   --color-neutral-700: #606060;
   --color-neutral-800: #404040;
+  --color-neutral-900: #000306;
 }
 
 @theme inline {
