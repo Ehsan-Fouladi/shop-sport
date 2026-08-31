@@ -7,55 +7,38 @@ import { useState } from "react";
 export default function MegaMenu() {
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
   return (
-    <div className="relative w-full max-w-7xl">
+    <div
+      className="relative w-full max-w-7xl"
+      onMouseLeave={() => setActiveMenu(null)}
+    >
       <nav className=" bg-neutral-100 rounded-[16px] py-4 px-10 flex items-center justify-between">
         <ul className="font-bold text-neutral-900 text-base flex items-center shrink-0 gap-10">
           <li
-            className={
-              activeMenu === "man"
-                ? "cursor-context-menu transition-colors duration-200 text-base-primary"
-                : ""
-            }
+            className={`transition-colors duration-300 ${activeMenu === "man" ? "text-base-primary cursor-context-menu" : ""}`}
             onMouseEnter={() => setActiveMenu("man")}
           >
             مردانه
           </li>
           <li
-            className={
-              activeMenu === "woman"
-                ? "transition-colors duration-200 text-base-primary cursor-context-menu"
-                : ""
-            }
+            className={`transition-colors duration-300 ${activeMenu === "woman" ? "text-base-primary cursor-context-menu" : ""}`}
             onMouseEnter={() => setActiveMenu("woman")}
           >
             زنانه
           </li>
           <li
-            className={
-              activeMenu === "children"
-                ? "transition-colors duration-200 text-base-primary cursor-context-menu"
-                : ""
-            }
+            className={`transition-colors duration-300 ${activeMenu === "children" ? "text-base-primary cursor-context-menu" : ""}`}
             onMouseEnter={() => setActiveMenu("children")}
           >
             بچگانه
           </li>
           <li
-            className={
-              activeMenu === "equipment"
-                ? "transition-colors duration-200 text-base-primary cursor-context-menu"
-                : ""
-            }
+            className={`transition-colors duration-300 ${activeMenu === "equipment" ? "text-base-primary cursor-context-menu" : ""}`}
             onMouseEnter={() => setActiveMenu("equipment")}
           >
             لوازم ورزشی
           </li>
           <li
-            className={
-              activeMenu === "accessories"
-                ? "transition-colors duration-200 text-base-primary cursor-context-menu"
-                : ""
-            }
+            className={`transition-colors duration-300 ${activeMenu === "accessories" ? "text-base-primary cursor-context-menu" : ""}`}
             onMouseEnter={() => setActiveMenu("accessories")}
           >
             شیکر و جاگ
