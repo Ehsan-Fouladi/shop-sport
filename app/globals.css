@@ -131,6 +131,40 @@ body {
   --color-neutral-700: #606060;
   --color-neutral-800: #404040;
   --color-neutral-900: #000306;
+
+  /* break point */
+  --breakpoint-xs: 320px;
+  /* 320px */ /* Small Mobile */
+  --breakpoint-sm: 375px;
+  /* 375px */ /* Mobile */
+  --breakpoint-md: 640px;
+  /* 640px */ /* Large Mobile / Small Tablet */
+  --breakpoint-lg: 768px;
+  /* 768px */ /* Tablet */
+  --breakpoint-xl: 1024px;
+  /* 1024px */ /* Small Laptop */
+  --breakpoint-2xl: 1280px;
+  /* 1280px */ /* Laptop / Desktop */
+  --breakpoint-3xl: 1536px;
+  /* 1536px */ /* Main Desktop */
+  --breakpoint-4xl: 1920px;
+  /* 1920px */ /* Large Desktop */
+  --breakpoint-5xl: 2560px;
+  /* 2560px */ /* Wide / Ultra-Wide Desktop */
+
+  /* container */
+  --container-7xl: 80rem;
+  /* 1280px - Laptop */
+  --container-8xl: 90rem;
+  /* 1440px - Desktop */
+  --container-9xl: 100rem;
+  /* 1600px - Main Desktop */
+  --container-10xl: 112.5rem;
+  /* 1800px - Large Desktop */
+  --container-11xl: 137.5rem;
+  /* 2200px - Wide Desktop */
+  --container-12xl: 150rem;
+  /* 2400px - Ultra Wide */
 }
 
 @theme inline {
