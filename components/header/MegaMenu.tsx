@@ -8,7 +8,7 @@ export default function MegaMenu() {
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
   return (
     <div
-      className="relative w-full max-w-7xl"
+      className="relative w-full max-w-5xl 2xl:max-w-7xl 4xl:max-w-10xl"
       onMouseLeave={() => setActiveMenu(null)}
     >
       <nav className=" bg-neutral-100 rounded-[16px] py-4 px-10 flex items-center justify-between">
@@ -109,7 +109,7 @@ export default function MegaMenu() {
           onMouseLeave={() => setActiveMenu(null)}
         >
           <div className="rounded-[16px] bg-base-neutral p-12 shadow-[0px_0px_50px_10px_#00000014]">
-            <div className="w-full grid grid-flow-col grid-cols-3">
+            <div className="w-full grid grid-flow-col grid-cols-3 4xl:grid-cols-4">
               <div className="flex flex-col gap-6">
                 <span className="font-normal text-xs text-base-primary">
                   لباس ورزشی مردانه
@@ -318,7 +318,7 @@ export default function MegaMenu() {
           onMouseLeave={() => setActiveMenu(null)}
         >
           <div className="rounded-[16px] bg-base-neutral p-12 shadow-[0px_0px_50px_10px_#00000014]">
-            <div className="w-full grid grid-flow-col grid-cols-3">
+            <div className="w-full grid grid-flow-col grid-cols-3 4xl:grid-cols-4">
               <div className="flex flex-col gap-6">
                 <span className="font-normal text-xs text-base-primary">
                   لباس ورزشی زنانه
@@ -540,7 +540,7 @@ export default function MegaMenu() {
           onMouseLeave={() => setActiveMenu(null)}
         >
           <div className="rounded-[16px] bg-base-neutral p-12 shadow-[0px_0px_50px_10px_#00000014]">
-            <div className="w-full grid grid-flow-col grid-cols-3">
+            <div className="w-full grid grid-flow-col grid-cols-3 4xl:grid-cols-4">
               <div className="flex flex-col gap-8">
                 <div className="flex flex-col gap-6">
                   <span className="font-normal text-xs text-base-primary">

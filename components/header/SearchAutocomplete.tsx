@@ -134,7 +134,7 @@ export default function SearchAutocomplete() {
       onMouseEnter={() => setIsSearch(true)}
     >
       <InputGroup
-        className={`${isSearch ? "rounded-t-[16px]" : "rounded-[16px]"} border border-neutral-400 bg-base-neutral placeholder:text-neutral-600 py-7 px-2`}
+        className={`${isSearch ? "rounded-t-[16px]" : "rounded-[16px]"} border border-neutral-400 bg-base-neutral placeholder:text-neutral-600 py-5 xl:py-7 px-1 xl:px-2`}
       >
         <InputGroupInput
           type="search"

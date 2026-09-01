@@ -79,7 +79,7 @@ export default function CartDropdown() {
           >
             <path
               d="M5.46717 1C6.23697 -0.333332 8.16147 -0.333334 8.93127 0.999999L14.1274 10C14.8972 11.3333 13.935 13 12.3954 13H2.00307C0.463467 13 -0.498785 11.3333 0.271015 10L5.46717 1Z"
-              fill="white"
+              fill="#021526"
             />
           </svg>
           <div className="absolute bg-base-neutral shadow-[0px_4px_10px_10px_#00000014] rounded-[16px] left-0 top-16 w-80 h-[25rem] z-50 flex flex-col overflow-hidden">
